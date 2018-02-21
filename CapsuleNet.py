@@ -7,7 +7,7 @@ class CapsuleNet_DynamicRouting():
 
     def __init__(self, batchsize, nums_outputs, vec_len,iter, data):
         self.batchsize = batchsize#Set the batchsize, this code is 50
-        self.nums_outputs = nums_outputs#输出类的数量
+        self.nums_outputs = nums_outputs#The number of outputs
         self.vec_len = vec_len#The length of one Vector in PrimaryCaps
         self.r = iter#The iteration number of Dynamic Routing
         #data is '.mat'
